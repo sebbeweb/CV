@@ -1,0 +1,15 @@
+/*justifier*/
+#sectqui,#sectexp,#sectloi,#sectfor,footer{
+	position:relative;
+	background-color:grey;
+	text-align:justify;
+}
+h2{
+	text-shadow:1px 1px #323232;
+}
+
+p{
+	text-shadow:1px 1px #323232;
+	font-size:17px;/*agrandir le texte*/
+}
+

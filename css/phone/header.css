@@ -1,0 +1,7 @@
+/*centrer titre couleur de font*/
+#entete{
+	text-align:center;
+	height:50px;
+	background-color:lightslategrey;
+}
+

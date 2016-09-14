@@ -1,0 +1,46 @@
+body {
+  background-color: darkslategrey; }
+  body #conteneur {
+    width: 80%;
+    margin: auto; }
+    body #conteneur #entete {
+      height: 50px;
+      text-align: center;
+      background-color: lightslategrey; }
+      body #conteneur #entete h1 {
+        text-transform: uppercase; }
+    body #conteneur #nav {
+      position: fixed;
+      width: 20%;
+      text-align: center;
+      background-color: lightgrey; }
+      body #conteneur #nav ul li .uppercase {
+        text-transform: uppercase; }
+      body #conteneur #nav ul .hiddenmenu {
+        position: relative; }
+        body #conteneur #nav ul .hiddenmenu:hover .hiddencontent {
+          display: inline; }
+        body #conteneur #nav ul .hiddenmenu .hiddencontent {
+          display: none;
+          margin: 0;
+          padding: 0; }
+    body #conteneur #sectqui, body #conteneur #sectexp, body #conteneur #sectloi, body #conteneur #sectfor {
+      background-color: grey;
+      background-color: grey;
+      float: right;
+      text-align: justify;
+      width: 75%; }
+      body #conteneur #sectqui header h2, body #conteneur #sectexp header h2, body #conteneur #sectloi header h2, body #conteneur #sectfor header h2 {
+        text-transform: uppercase; }
+      body #conteneur #sectqui article section header h3, body #conteneur #sectexp article section header h3, body #conteneur #sectloi article section header h3, body #conteneur #sectfor article section header h3 {
+        text-transform: uppercase; }
+    body #conteneur footer {
+      background-color: grey;
+      background-color: grey;
+      float: right;
+      text-align: justify;
+      width: 75%; }
+      body #conteneur footer h2 {
+        text-transform: uppercase; }
+
+/*# sourceMappingURL=main.css.map */

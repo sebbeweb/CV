@@ -1,0 +1,14 @@
+body{
+	background-color:darkslategrey;
+}
+
+#conteneur{
+	width:80%;
+	margin:auto;
+}
+/*mettre les balise en majuscule*/
+.uppercase,h1,h2,h3{
+	text-transform:uppercase;
+}
+
+

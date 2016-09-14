@@ -1,0 +1,24 @@
+/*positionner nav a droite des section et qu'il puisse dessendre*/
+
+#nav{
+	position:fixed;
+	display:flex;
+	flex-direction:column;
+	background-color:lightgrey;
+	width:20%;
+	text-align:center;
+}
+/*menu cache qui reaparait au survole*/
+.hiddenmenu {
+    	position:relative;
+}
+
+.hiddencontent {
+   	display: none;
+   	padding:0;
+	margin:0;
+}
+
+.hiddenmenu:hover .hiddencontent {
+   	display: inline;
+}

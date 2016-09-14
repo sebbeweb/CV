@@ -1,0 +1,8 @@
+/*positioner section a droit du nav, justifier*/
+#sectqui,#sectexp,#sectloi,#sectfor{
+	background-color:grey;
+	float:right;
+	text-align:justify;
+	width:75%;
+}
+
